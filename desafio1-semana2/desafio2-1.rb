@@ -75,65 +75,47 @@ end
 
 
 class Pinguino < Ave
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Carnivoro
 end
 
 class Paloma < Ave
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Herbivoro
 end
 
 class Pato < Ave
-    def initialize(nombre)
-        super(nombre)
-    end
+   
     include Alimentacion::Herbivoro
 end
 
 class Perro < Mamifero
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Carnivoro
 end
 
 class Gato < Mamifero
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Carnivoro
 end
 
 class Vaca < Mamifero
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Herbivoro
 end
 
 class Mosca < Insecto
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Herbivoro
 end
 
 class Mariposa < Insecto
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Herbivoro
 end
 
 class Abeja < Insecto
-    def initialize(nombre)
-        super(nombre)
-    end
+    
     include Alimentacion::Herbivoro
 end
 
